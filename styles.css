@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:burlywood;
+}
+
+.first-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-div{
+    height: 20rem;
+    width: 20rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2.5rem;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    background-image: url(./assets/images/image.JPG);
+    background-size: cover;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border: 0.25rem solid burlywood;
+}
+
+.first-h1{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 5rem;
+    text-decoration: none;
+    margin-top: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.first-h1:hover{
+    color: rgba(0, 0, 0, 0.75)
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 2.5rem;
+}
+
+.icon-div{
+    height: 5rem;
+    width: 5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.icon-div:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+a{
+    color:burlywood;
+    text-decoration: none;
+}
+
+.first-div:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.second-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-div{
+    height: 20rem;
+    width: 66%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2.5rem;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second-h1{
+    color: burlywood;
+}
+
+.second-p{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    width: 60%;
+    line-height: 150%;
+}
+
+.second-div:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.third-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-div{
+    height: 20rem;
+    width: 66%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2.5rem;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.third-div:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.third-h1{
+    color: burlywood;
+}
+
+.third-p{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    width: 60%;
+    line-height: 200%;
+}
+
+hr{
+    border-radius: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.fourth-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-div{
+    height: 20rem;
+    width: 66%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fourth-h1{
+    color: burlywood;
+}
+
+.fourth-div:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+}
